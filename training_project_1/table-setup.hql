@@ -13,7 +13,7 @@ CREATE TABLE internal_links
 (page_title String, total_int_links int);
 
 CREATE TABLE link_percents
-(page_title String, internal_links int, total_traffic int, percentage decimal(10,2))
+(page_title String, internal_links int, total_traffic int, percentage decimal(10,2));
 
 
 --     PAGEVIEWS       --
@@ -37,7 +37,7 @@ CREATE TABLE pageviews_comparison
 (page_title String, us_views int, uk_views int, au_views int);
 
 CREATE TABLE pageviews_totals
-(page_title String, total_views);
+(page_title String, total_views int);
 
 
 --     REVISION HISTORY    --
