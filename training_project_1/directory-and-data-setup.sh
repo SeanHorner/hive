@@ -49,7 +49,7 @@ wget https://dumps.wikimedia.org/other/pageviews/2020/2020-10/pageviews-20201021
 wget https://dumps.wikimedia.org/other/pageviews/2020/2020-10/pageviews-20201021-040000.gz &&
 wget https://dumps.wikimedia.org/other/pageviews/2020/2020-10/pageviews-20201021-050000.gz &&
 wget https://dumps.wikimedia.org/other/pageviews/2020/2020-10/pageviews-20201021-060000.gz &&
-gunzip *gz &&
+gunzip *.gz &&
 
 cd ..
 mkdir revision_history &&
