@@ -8,7 +8,7 @@ cd wiki_hive_project
 
 mkdir clickstream
 cd clickstream
-wget 'https://dumps.wikimedia.org/other/clickstream/2020-09/clickstream-enwiki-2020-09.tsv.gz'
+wget 'https://dumps.wikimedia.org/other/clickstream/2020-09/clickstream-enwiki-2020-10.tsv.gz'
 gunzip *.gz
 
 cd ..
